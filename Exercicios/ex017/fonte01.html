@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /* pesquisar no google web safe fonts combination */
+            font-size: 16px ;
+            font-weight: lighter; /*lighter normal bold bolder ou em numeros de 100 a 900 - precisa verificar se a fonte aceita as configurações*/
+            font-style: italic;
+            /*
+            medidas absolutas: cm, mm, in, px, pt -ponto-, pc - paica-
+
+            medidas relativas: em, ex, rem, vw,vh, %
+
+            w3c recomenda usar px e em (trabalhar com em é legal pq ele faz a relação entre as fontes, isso ajuda em telas de tamanhos diferentes)
+            16px geralmente é 1em
+
+            tamanho padrão normalmente é 16px
+            */
+        }
+        h1{
+            font: italic bold 3em 'work sans', sans-serif;
+            /*
+            shorthand font = todas as configurações de fonte em um comando na ordem abaixo:
+            font-style  font-weight  font-size  font-family
+            */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat, blanditiis quia cum dicta magni enim quis hic amet perspiciatis maiores magnam rem dolorum voluptates labore quae illum facilis nesciunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, dolores exercitationem esse ad quasi hic. Impedit ipsum sed veniam, natus saepe quaerat officia quibusdam neque obcaecati aspernatur voluptate, rem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur debitis illum fugit reprehenderit minima obcaecati iure aspernatur in unde tenetur nihil asperiores, alias voluptatum error eaque? Et, repellat iusto?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti recusandae iure et, voluptate expedita dolor laborum repellendus dicta voluptates odit itaque aperiam quisquam labore dignissimos eum excepturi hic ipsa.</p>
+
+</body>
+</html>
